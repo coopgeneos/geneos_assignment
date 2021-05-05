@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_geneos-assignment_geneos-assignment,geneos-assignment.geneos-assignment,model_geneos-assignment_geneos-assignment,base.group_user,1,1,1,1
