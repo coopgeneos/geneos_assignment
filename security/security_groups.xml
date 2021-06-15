@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data>
+        
+        <record id="security_group_assignments" model="res.groups">
+            <field name="name">Assignment Admin</field>
+        </record>
+
+    </data>
+    
+
+</odoo>

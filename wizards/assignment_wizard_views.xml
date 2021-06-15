@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <data>
+        <!-- Add you code here -->
+        <!-- geneos.assignment_wizard form view -->
+        <record id="geneos_assignment_wizard_view_form" model="ir.ui.view">
+            <field name="name">Generate Assignments</field>
+            <field name="model">geneos.assignment_wizard</field>
+            <field name="arch" type="xml">
+                <form string="Create assignments">
+                    <group>
+                        <field name="employee_id"/>
+                        <field name="project_id"/>
+                        <field name="hours" widget="float_time"/>                            
+                        <field name="date_init" widget="daterange" options="{'related_end_date': 'date_end'}"/>
+                        <field name="date_end" widget="daterange" options="{'related_start_date': 'date_init'}"/>
+                    </group>
+                    <footer>
+                        <button name="generate_assignments" type="object" string="Generate"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>

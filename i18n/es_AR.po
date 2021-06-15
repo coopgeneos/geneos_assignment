@@ -1,0 +1,303 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* geneos_assignment
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-15 01:09+0000\n"
+"PO-Revision-Date: 2021-06-15 01:09+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: geneos_assignment
+#: model:ir.actions.act_window,name:geneos_assignment.geneos_all_assignment_action
+#: model:ir.ui.menu,name:geneos_assignment.geneos_all_assignment_menu_act
+msgid "All Assignments"
+msgstr "Todas las Asignaciones"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__amount
+msgid "Amount"
+msgstr "Cantidad"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__account_id
+msgid "Analytic Account"
+msgstr "Cuenta Analítica"
+
+#. module: geneos_assignment
+#: model_terms:ir.ui.view,arch_db:geneos_assignment.view_tree_geneos_assignment
+msgid "Asignaciones"
+msgstr "Asignaciones"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__unit_amount
+msgid "Assigned hours"
+msgstr "Horas asignadas"
+
+#. module: geneos_assignment
+#: model:res.groups,name:geneos_assignment.security_group_assignments
+msgid "Assignment Admin"
+msgstr "Admin de asignaciones"
+
+#. module: geneos_assignment
+#: model:ir.ui.menu,name:geneos_assignment.geneos_assignment_menu_act
+#: model:ir.ui.menu,name:geneos_assignment.geneos_assignment_menu_act_child
+#: model_terms:ir.ui.view,arch_db:geneos_assignment.geneos_assignment_view_form
+#: model_terms:ir.ui.view,arch_db:geneos_assignment.geneos_assignment_view_search
+msgid "Assignments"
+msgstr "Asignaciones"
+
+#. module: geneos_assignment
+#: model_terms:ir.ui.view,arch_db:geneos_assignment.assignment_view_pivot
+msgid "Assignments per associate"
+msgstr "Asignaciones por asociado"
+
+#. module: geneos_assignment
+#: model_terms:ir.ui.view,arch_db:geneos_assignment.assignment_with_plannified_hours_view_pivot
+msgid "Assignments per associate / Plannified hours"
+msgstr "Asignaciones por asociado / Horas planificadas"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__employee_id
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment_wizard__employee_id
+msgid "Associate"
+msgstr "Asociado"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__average_hours
+msgid "Average hours"
+msgstr "Horas Promedio"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__product_uom_category_id
+msgid "Category"
+msgstr "Categoría"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__code
+msgid "Code"
+msgstr "Código"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__company_id
+msgid "Company"
+msgstr "Compañia"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,help:geneos_assignment.field_geneos_assignment__product_uom_category_id
+msgid ""
+"Conversion between Units of Measure can only occur if they belong to the "
+"same category. The conversion will be made based on the ratios."
+msgstr ""
+"La conversión entre las unidades de medidas sólo pueden ocurrir si "
+"pertenecen a la misma categoría. La conversión se basará en los ratios "
+"establecidos."
+
+#. module: geneos_assignment
+#: model:ir.ui.menu,name:geneos_assignment.geneos_assignment_wizard_menu_act
+msgid "Create Assignments"
+msgstr "Generar Asignaciones"
+
+#. module: geneos_assignment
+#: model_terms:ir.ui.view,arch_db:geneos_assignment.geneos_assignment_wizard_view_form
+msgid "Create assignments"
+msgstr "Generar asignaciones"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__create_uid
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment_wizard__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__create_date
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment_wizard__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__currency_id
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: geneos_assignment
+#: model_terms:ir.ui.view,arch_db:geneos_assignment.geneos_assignment_view_search
+msgid "Current Month"
+msgstr "Mes Actual"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__date
+msgid "Date"
+msgstr "Fecha"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment_wizard__date_end
+msgid "Date From"
+msgstr "Fecha desde"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment_wizard__date_init
+msgid "Date To"
+msgstr "Fecha hasta"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__name
+msgid "Description"
+msgstr "Descripción"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__display_name
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment_wizard__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__general_account_id
+msgid "Financial Account"
+msgstr "Cuenta financiera"
+
+#. module: geneos_assignment
+#: model_terms:ir.ui.view,arch_db:geneos_assignment.geneos_assignment_wizard_view_form
+msgid "Generate"
+msgstr "Generar"
+
+#. module: geneos_assignment
+#: model:ir.actions.act_window,name:geneos_assignment.geneos_assignment_wizard_action
+msgid "Generate Assignments"
+msgstr "Generar Asignaciones"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__group_id
+msgid "Group"
+msgstr "Grupo"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment_wizard__hours
+msgid "Hours to assign"
+msgstr "Horas a asignar"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__id
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment_wizard__id
+msgid "ID"
+msgstr "ID"
+
+#. module: geneos_assignment
+#: model:ir.actions.act_window,name:geneos_assignment.assignment_pivot_action
+#: model:ir.ui.menu,name:geneos_assignment.assignment_pivot_menu
+msgid "Informe de asignaciones"
+msgstr "Informe de asignaciones"
+
+#. module: geneos_assignment
+#: model:ir.ui.menu,name:geneos_assignment.assignment_average_pivot_menu
+msgid "Informe de asignaciones vs Disponibilidad de Empleados"
+msgstr "Informe de asignaciones vs Disponibilidad de Empleados"
+
+#. module: geneos_assignment
+#: model:ir.actions.act_window,name:geneos_assignment.assignment_average_pivot_action
+msgid "Informe de asignaciones vs Disponibilidad por Empleado"
+msgstr "Informe de asignaciones vs Disponibilidad por Empleado"
+
+#. module: geneos_assignment
+#: model:ir.ui.menu,name:geneos_assignment.informes_menu
+msgid "Informes"
+msgstr "Informes"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__move_id
+msgid "Journal Item"
+msgstr "Item de Diario"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment____last_update
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment_wizard____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__write_uid
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización hecha por"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__write_date
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment_wizard__write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: geneos_assignment
+#: model:ir.model,name:geneos_assignment.model_geneos_assignment
+msgid "Modelo de asignaciones"
+msgstr "Modelo de asignaciones"
+
+#. module: geneos_assignment
+#: model:ir.actions.act_window,name:geneos_assignment.geneos_assignment_action
+#: model:ir.ui.menu,name:geneos_assignment.geneos_my_assignment_menu_act
+msgid "My Assignments"
+msgstr "Mis asignaciones"
+
+#. module: geneos_assignment
+#: model_terms:ir.actions.act_window,help:geneos_assignment.geneos_all_assignment_action
+#: model_terms:ir.actions.act_window,help:geneos_assignment.geneos_assignment_action
+msgid "New Assignation"
+msgstr "Nueva asignación"
+
+#. module: geneos_assignment
+#: model_terms:ir.ui.view,arch_db:geneos_assignment.geneos_assignment_view_search
+msgid "Order Date"
+msgstr "Fecha"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__partner_id
+msgid "Partner"
+msgstr "Compañero"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__period
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__period_name
+msgid "Period"
+msgstr "Período"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__product_id
+msgid "Product"
+msgstr "Producto"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__project_id
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment_wizard__project_id
+msgid "Project"
+msgstr "Proyecto"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__ref
+msgid "Ref."
+msgstr "Ref."
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__tag_ids
+msgid "Tags"
+msgstr "Tags"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__product_uom_id
+msgid "Unit of Measure"
+msgstr "Unidad de Medida"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__user_id
+msgid "User"
+msgstr "Usuario"
+
+#. module: geneos_assignment
+#: model:ir.model,name:geneos_assignment.model_geneos_assignment_wizard
+msgid "Wizard de generación de asignaciones"
+msgstr "Wizard de generación de asignaciones"

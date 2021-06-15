@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data>
+    
+        <record id="assignment_view_pivot" model="ir.ui.view">
+            <field name="name">geneos.assignment.view.pivot</field>
+            <field name="model">geneos.assignment</field>
+            <field name="arch" type="xml">
+                <pivot string="Assignments per associate">
+                    <field name="employee_id" type="row"/>
+                    <field name="period" type="col" interval="month"/>
+                    <field name="unit_amount" type="measure" widget="float_time"/>
+                </pivot>
+            </field>
+        </record>
+
+        <record id="assignment_with_plannified_hours_view_pivot" model="ir.ui.view">
+            <field name="name">geneos.assignment.view.pivot</field>
+            <field name="model">geneos.assignment</field>
+            <field name="arch" type="xml">
+                <pivot string="Assignments per associate / Plannified hours">
+                    <field name="employee_id" type="row"/>
+                    <field name="period" type="col" interval="month"/>
+                    <field name="unit_amount" type="measure" widget="float_time"/>
+                    <field name="average_hours" type="measure"/>
+                </pivot>
+            </field>
+        </record>
+    
+    </data>
+    
+
+</odoo>

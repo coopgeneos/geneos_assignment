@@ -1,0 +1,8 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.maxNumberOfProblems": 120,
+    "python.pythonPath": "/home/mreginato/odoo-workspace/geneos/venv/bin/python3",
+    "python.analysis.extraPaths": ["/home/mreginato/odoo-workspace/geneos/odoo/addons", "/home/mreginato/odoo-workspace/geneos/odoo/odoo", "/home/mreginato/odoo-workspace/geneos/odoo/addons"]
+    
+}

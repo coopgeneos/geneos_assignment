@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <data>
+
+        <record id="geneos_assignment_view_search" model="ir.ui.view">
+            <field name="name">geneos.assignment.view.search</field>
+            <field name="model">geneos.assignment</field>
+            <field name="arch" type="xml">
+                <search string="Assignments">
+                    <field name="employee_id" />
+                    <field name="project_id" />
+                    <filter string="Order Date" name="order_date" date="period"/>
+                    <filter string="Current Month" name="current_month" domain="[('period','&gt;=',context_today().strftime('%%Y-%%m-01')),('period','&lt;',(context_today()+relativedelta(months=1)).strftime('%%Y-%%m-01'))]"/>
+                </search>
+            </field>
+        </record>
+
+        <!-- geneos.assignment tree view -->
+        <record id="view_tree_geneos_assignment" model="ir.ui.view">
+            <field name="name">geneos.assignment.tree</field>
+            <field name="model">geneos.assignment</field>
+            <field name="arch" type="xml">
+                <tree string="Asignaciones">
+                    <!-- Add your fields here -->
+                    <field name="employee_id" />
+                    <field name="project_id" />
+                    <field name="period_name"/>
+                    <field name="unit_amount" widget="float_time" />
+                </tree>
+            </field>
+        </record>
+        <!-- geneos.assignment form view -->
+        <record id="geneos_assignment_view_form" model="ir.ui.view">
+            <field name="name">geneos.assignment.view.form</field>
+            <field name="model">geneos.assignment</field>
+            <field name="arch" type="xml">
+                <form string="Assignments">
+                    <sheet>
+                        <group>
+                            <!-- Add your fields here -->
+                            <field name="employee_id" />
+                            <field name="project_id" />
+                            <field name="period" />
+                            <field name="unit_amount" />
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+
+    </data>
+</odoo>
