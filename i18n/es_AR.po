@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-15 01:09+0000\n"
-"PO-Revision-Date: 2021-06-15 01:09+0000\n"
+"POT-Creation-Date: 2021-06-29 02:37+0000\n"
+"PO-Revision-Date: 2021-06-29 02:37+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -45,6 +45,12 @@ msgstr "Horas asignadas"
 #: model:res.groups,name:geneos_assignment.security_group_assignments
 msgid "Assignment Admin"
 msgstr "Admin de asignaciones"
+
+#. module: geneos_assignment
+#: code:addons/geneos_assignment/models/assignments.py:0
+#, python-format
+msgid "Assignment exceeded!"
+msgstr "Has superado el numero de horas asignables!"
 
 #. module: geneos_assignment
 #: model:ir.ui.menu,name:geneos_assignment.geneos_assignment_menu_act
@@ -157,6 +163,11 @@ msgstr "Descripción"
 #: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment_wizard__display_name
 msgid "Display Name"
 msgstr "Nombre mostrado"
+
+#. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__exceeded
+msgid "Exceeded"
+msgstr "Excedido"
 
 #. module: geneos_assignment
 #: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__general_account_id
@@ -272,6 +283,7 @@ msgid "Product"
 msgstr "Producto"
 
 #. module: geneos_assignment
+#: model:ir.model,name:geneos_assignment.model_project_project
 #: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__project_id
 #: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment_wizard__project_id
 msgid "Project"
@@ -283,9 +295,14 @@ msgid "Ref."
 msgstr "Ref."
 
 #. module: geneos_assignment
+#: model:ir.model.fields,field_description:geneos_assignment.field_project_project__is_repro
+msgid "Reproductive"
+msgstr "Reproductivo"
+
+#. module: geneos_assignment
 #: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__tag_ids
 msgid "Tags"
-msgstr "Tags"
+msgstr "Etiquetas"
 
 #. module: geneos_assignment
 #: model:ir.model.fields,field_description:geneos_assignment.field_geneos_assignment__product_uom_id
@@ -301,3 +318,9 @@ msgstr "Usuario"
 #: model:ir.model,name:geneos_assignment.model_geneos_assignment_wizard
 msgid "Wizard de generación de asignaciones"
 msgstr "Wizard de generación de asignaciones"
+
+#. module: geneos_assignment
+#: code:addons/geneos_assignment/models/assignments.py:0
+#, python-format
+msgid "You have exceeded the hours to assign"
+msgstr "Has superado el numero de horas para asignar."

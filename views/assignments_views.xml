@@ -20,8 +20,9 @@
             <field name="name">geneos.assignment.tree</field>
             <field name="model">geneos.assignment</field>
             <field name="arch" type="xml">
-                <tree string="Asignaciones">
+                <tree string="Asignaciones" decoration-danger="exceeded == True" default_order="period_name,employee_id">
                     <!-- Add your fields here -->
+                    <field name="exceeded" invisible="1" />
                     <field name="employee_id" />
                     <field name="project_id" />
                     <field name="period_name"/>

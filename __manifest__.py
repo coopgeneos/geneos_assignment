@@ -30,6 +30,7 @@
         'views/assignments_views.xml',
         'views/assignment_pivot_views.xml',
         'views/menu_views.xml',
+        'views/project_views.xml'
     ],
     # only loaded in demonstration mode
     'demo': [
