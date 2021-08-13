@@ -38,11 +38,15 @@
                 <form string="Assignments">
                     <sheet>
                         <group>
-                            <!-- Add your fields here -->
-                            <field name="employee_id" />
-                            <field name="project_id" />
-                            <field name="period" />
-                            <field name="unit_amount" />
+                            <group class="group-left">
+                                <field name="employee_id" />
+                                <field name="project_id" />
+                                <field name="period" />
+                            </group>
+                            <group class="group-right">
+                                <field name="unit_amount" />
+                                <field name="average_hours" />
+                            </group>
                         </group>
                     </sheet>
                 </form>

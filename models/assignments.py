@@ -16,7 +16,7 @@ class Assignment(models.Model):
     unit_amount = fields.Float(string='Assigned hours')
     tag_ids = fields.Many2many('account.analytic.tag', 'assignment_tag_rel', 'assignment_id', 'tag_id', string='Tags', copy=True, domain="['|', ('company_id', '=', False), ('company_id', '=', company_id)]")
 
-    average_hours = fields.Float(string='Average hours',compute='_compute_average_hours', store=False)
+    average_hours = fields.Float(string='Average hours',compute='_compute_average_hours', store=True)
     DAYS_WEEK = 5
     AVERAGE_WEEKS = 4.35 
 
