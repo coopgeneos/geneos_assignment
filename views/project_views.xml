@@ -13,13 +13,31 @@
                         <label for="is_repro"></label>
                         <field name="is_repro" />
                     </div>
+                </xpath>
 
-                    
+                <!-- Agrega el campo etiqueta despues del cliente cuando creas o editas un proyecto -->
+                <xpath expr="//field[@name='partner_id']" position="after">
+                        <field name="tags_id" widget="many2many_tags"/>  
                 </xpath>
             </field>
         </record>
     
-    </data>
-    
+    <!-- Agregar "etiqueta" en el menu configuacion del proyecto  -->
 
+        <record model="ir.actions.act_window" id="geneos_accion_etiqueta">
+            <field name="type">ir.actions.act_window</field>
+            <field name="name">Etiqueta</field>
+            <field name="res_model">project.tag</field>
+            <field name="view_mode">tree,form</field>
+            <field name="res_id">1</field>
+            </record>
+
+            <!-- Top menu item -->
+
+        <menuitem id="geneos.menu_etiqueta" 
+            name="Etiquetas de proyecto" 
+            parent="project.menu_project_config"
+            action="geneos_accion_etiqueta"
+            sequence="4"/>
+    </data>
 </odoo>
